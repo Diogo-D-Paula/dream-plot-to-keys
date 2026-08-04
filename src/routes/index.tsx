@@ -5,10 +5,7 @@ import { Hero } from "@/components/site/Hero";
 import { Beneficios } from "@/components/site/Beneficios";
 import { Processo } from "@/components/site/Processo";
 import { Simulador } from "@/components/site/Simulador";
-import { Projetos } from "@/components/site/Projetos";
-import { Terrenos } from "@/components/site/Terrenos";
 import { Diferenciais } from "@/components/site/Diferenciais";
-import { Depoimentos } from "@/components/site/Depoimentos";
 import { Faq } from "@/components/site/Faq";
 import { FinalCta } from "@/components/site/FinalCta";
 

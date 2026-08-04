@@ -20,10 +20,12 @@ export function SiteNav() {
           ))}
         </div>
         <a
-          href="/#simulador"
+          href="https://wa.me/5566999990322?text=Ol%C3%A1%21%20Vim%20do%20site%20e%20quero%20fazer%20uma%20simula%C3%A7%C3%A3o%20de%20financiamento%20para%20terreno%20%2B%20constru%C3%A7%C3%A3o."
+          target="_blank"
+          rel="noopener noreferrer"
           className="rounded-full bg-primary px-6 py-3 text-xs font-bold uppercase tracking-widest text-primary-foreground transition-all hover:brightness-110"
         >
-          Simular Financiamento
+          Falar no WhatsApp
         </a>
       </div>
     </nav>

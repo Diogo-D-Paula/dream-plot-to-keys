@@ -19,16 +19,10 @@ export function Hero() {
             </p>
             <div className="flex flex-wrap gap-4">
               <a
-                href="#simulador"
-                className="rounded-sm bg-foreground px-8 py-5 text-sm font-bold uppercase text-background transition-transform hover:scale-[1.01]"
-              >
-                Começar Simulação
-              </a>
-              <a
-                href="https://wa.me/5562999999999"
+                href="https://wa.me/5566999990322?text=Ol%C3%A1%21%20Vim%20do%20site%20e%20quero%20fazer%20uma%20simula%C3%A7%C3%A3o%20de%20financiamento%20para%20terreno%20%2B%20constru%C3%A7%C3%A3o."
                 target="_blank"
-                rel="noreferrer"
-                className="rounded-sm border border-border px-8 py-5 text-sm font-bold uppercase hover:bg-black/5"
+                rel="noopener noreferrer"
+                className="rounded-sm bg-primary px-10 py-5 text-sm font-bold uppercase tracking-widest text-primary-foreground transition-transform hover:scale-[1.01]"
               >
                 Falar no WhatsApp
               </a>

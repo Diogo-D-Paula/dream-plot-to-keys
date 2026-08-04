@@ -10,18 +10,12 @@ export function FinalCta() {
             Faça uma simulação gratuita agora e descubra em minutos o valor aprovado e as
             parcelas estimadas para o seu perfil.
           </p>
-          <div className="flex flex-col items-center justify-center gap-4 sm:flex-row">
+          <div className="flex justify-center">
             <a
-              href="#simulador"
-              className="rounded-sm bg-primary px-10 py-5 text-sm font-bold uppercase tracking-widest text-primary-foreground transition-transform hover:scale-[1.02]"
-            >
-              Fazer simulação gratuita
-            </a>
-            <a
-              href="https://wa.me/5562999999999"
+              href="https://wa.me/5566999990322?text=Ol%C3%A1%21%20Vim%20do%20site%20e%20quero%20fazer%20uma%20simula%C3%A7%C3%A3o%20de%20financiamento%20para%20terreno%20%2B%20constru%C3%A7%C3%A3o."
               target="_blank"
-              rel="noreferrer"
-              className="rounded-sm border border-white/20 px-10 py-5 text-sm font-bold uppercase tracking-widest text-white transition-colors hover:bg-white/10"
+              rel="noopener noreferrer"
+              className="rounded-sm bg-primary px-10 py-5 text-sm font-bold uppercase tracking-widest text-primary-foreground transition-transform hover:scale-[1.02]"
             >
               Falar no WhatsApp
             </a>

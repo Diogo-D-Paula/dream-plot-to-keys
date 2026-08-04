@@ -22,10 +22,12 @@ function Placeholder({ title, desc }: { title: string; desc: string }) {
             Voltar para a home
           </Link>
           <a
-            href="/#simulador"
+            href="https://wa.me/5566999990322?text=Ol%C3%A1%21%20Vim%20do%20site%20e%20quero%20fazer%20uma%20simula%C3%A7%C3%A3o%20de%20financiamento%20para%20terreno%20%2B%20constru%C3%A7%C3%A3o."
+            target="_blank"
+            rel="noopener noreferrer"
             className="rounded-sm bg-primary px-8 py-4 text-sm font-bold uppercase text-primary-foreground"
           >
-            Fazer simulação
+            Falar no WhatsApp
           </a>
         </div>
       </main>

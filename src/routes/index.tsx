@@ -46,7 +46,6 @@ function Index() {
         <Hero />
         <Beneficios />
         <Processo />
-        <Simulador />
         <Diferenciais />
         <Faq />
         <FinalCta />

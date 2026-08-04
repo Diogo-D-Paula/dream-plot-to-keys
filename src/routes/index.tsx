@@ -47,10 +47,7 @@ function Index() {
         <Beneficios />
         <Processo />
         <Simulador />
-        <Projetos />
-        <Terrenos />
         <Diferenciais />
-        <Depoimentos />
         <Faq />
         <FinalCta />
       </main>

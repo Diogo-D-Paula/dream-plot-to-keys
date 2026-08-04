@@ -43,7 +43,7 @@ export function Simulador() {
   };
 
   return (
-    <section id="simulador" className="bg-secondary/30 py-32">
+    <section id="simulador" className="border-t border-border bg-secondary/30 py-32">
       <div className="mx-auto max-w-4xl px-6">
         <div className="mb-16 text-center">
           <span className="mb-4 block font-mono text-xs uppercase tracking-[0.3em] text-primary">

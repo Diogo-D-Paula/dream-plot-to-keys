@@ -4,7 +4,7 @@ import { SiteFooter } from "@/components/site/SiteFooter";
 import { Hero } from "@/components/site/Hero";
 import { Beneficios } from "@/components/site/Beneficios";
 import { Processo } from "@/components/site/Processo";
-import { Simulador } from "@/components/site/Simulador";
+
 import { Diferenciais } from "@/components/site/Diferenciais";
 import { Faq } from "@/components/site/Faq";
 import { FinalCta } from "@/components/site/FinalCta";

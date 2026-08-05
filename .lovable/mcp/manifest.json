@@ -1,0 +1,117 @@
+{
+  "version": 1,
+  "sdk_version": "0.26.1",
+  "path": "/mcp",
+  "auth": {
+    "type": "oauth",
+    "issuer": "https://vgkezacjjtnjvbosaruz.supabase.co/auth/v1",
+    "accepted_audiences": [
+      "authenticated"
+    ]
+  },
+  "mcp": {
+    "server": {
+      "name": "your-dream-home-path",
+      "version": "0.1.0",
+      "title": "Your Dream Home Path"
+    },
+    "tools": [
+      {
+        "name": "list_leads",
+        "title": "List leads",
+        "description": "List captured leads (name, WhatsApp, income, city, FGTS and land flags), newest first. Requires an admin account.",
+        "annotations": {
+          "readOnlyHint": true,
+          "idempotentHint": true,
+          "openWorldHint": false
+        },
+        "inputSchema": {
+          "$schema": "http://json-schema.org/draft-07/schema#",
+          "type": "object",
+          "properties": {
+            "limit": {
+              "description": "Maximum number of leads to return. Defaults to 50.",
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 200
+            },
+            "cidade": {
+              "description": "Filter by city (case-insensitive partial match).",
+              "type": "string",
+              "minLength": 1
+            }
+          }
+        },
+        "outputSchema": null
+      },
+      {
+        "name": "lead_stats",
+        "title": "Lead statistics",
+        "description": "Summarize captured leads: total count, how many already own land, how many have FGTS, average income and top cities. Requires an admin account.",
+        "annotations": {
+          "readOnlyHint": true,
+          "idempotentHint": true,
+          "openWorldHint": false
+        },
+        "inputSchema": {
+          "$schema": "http://json-schema.org/draft-07/schema#",
+          "type": "object",
+          "properties": {}
+        },
+        "outputSchema": null
+      },
+      {
+        "name": "create_lead",
+        "title": "Create lead",
+        "description": "Register a new lead interested in land purchase + financed construction.",
+        "annotations": {
+          "readOnlyHint": false,
+          "destructiveHint": false,
+          "openWorldHint": false
+        },
+        "inputSchema": {
+          "$schema": "http://json-schema.org/draft-07/schema#",
+          "type": "object",
+          "properties": {
+            "nome": {
+              "type": "string",
+              "minLength": 2,
+              "maxLength": 120,
+              "description": "Full name of the lead."
+            },
+            "whatsapp": {
+              "type": "string",
+              "minLength": 8,
+              "maxLength": 30,
+              "description": "WhatsApp number, digits and separators only."
+            },
+            "renda": {
+              "description": "Monthly household income in BRL.",
+              "type": "number",
+              "minimum": 0,
+              "maximum": 100000000
+            },
+            "cidade": {
+              "description": "City of interest.",
+              "type": "string",
+              "maxLength": 120
+            },
+            "possui_fgts": {
+              "description": "Whether the lead has FGTS balance.",
+              "type": "boolean"
+            },
+            "possui_terreno": {
+              "description": "Whether the lead already owns land.",
+              "type": "boolean"
+            }
+          },
+          "required": [
+            "nome",
+            "whatsapp"
+          ]
+        },
+        "outputSchema": null
+      }
+    ]
+  }
+}

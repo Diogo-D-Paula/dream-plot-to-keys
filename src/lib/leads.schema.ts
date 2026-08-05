@@ -9,7 +9,7 @@ export const simuladorSchema = z.object({
     .max(30, "WhatsApp inválido")
     .regex(/^[\d\s()+\-]+$/, "WhatsApp inválido"),
   renda: z
-    .number({ invalid_type_error: "Informe sua renda" })
+    .number({ error: "Informe sua renda" })
     .min(0)
     .max(100000000),
   possui_fgts: z.boolean(),

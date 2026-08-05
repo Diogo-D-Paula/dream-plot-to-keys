@@ -1,4 +1,4 @@
-import { createFileRoute, Link } from "@tanstack/react-router";
+import { createFileRoute } from "@tanstack/react-router";
 import { SiteNav } from "@/components/site/SiteNav";
 import { SiteFooter } from "@/components/site/SiteFooter";
 
@@ -25,12 +25,12 @@ function Contato() {
         </h1>
         <div className="grid gap-6 rounded-2xl border border-border bg-card p-8">
           <a
-            href="https://wa.me/5562999999999"
+            href="https://wa.me/5566999990322?text=Ol%C3%A1%21%20Vim%20do%20site%20e%20quero%20fazer%20uma%20simula%C3%A7%C3%A3o%20de%20financiamento%20para%20terreno%20%2B%20constru%C3%A7%C3%A3o."
             target="_blank"
             rel="noreferrer"
             className="rounded-xl bg-primary px-6 py-5 text-center font-bold uppercase tracking-widest text-primary-foreground"
           >
-            WhatsApp (62) 99999-9999
+            WhatsApp (66) 99999-90322
           </a>
           <a
             href="mailto:atendimento@suaconstrutora.com.br"
@@ -38,12 +38,6 @@ function Contato() {
           >
             atendimento@suaconstrutora.com.br
           </a>
-          <Link
-            to="/"
-            className="text-center font-mono text-xs uppercase tracking-widest text-muted-foreground hover:text-primary"
-          >
-            Ou faça a simulação direto na home →
-          </Link>
         </div>
       </main>
       <SiteFooter />

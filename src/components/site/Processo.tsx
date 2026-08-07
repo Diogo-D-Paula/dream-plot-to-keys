@@ -1,8 +1,8 @@
 const passos = [
-  { n: "01", titulo: "Simulação e crédito", desc: "Analisamos seu perfil e aprovamos seu limite junto à Caixa." },
+  { n: "01", titulo: "Simulação e crédito", desc: "Analisamos seu perfil e aprovamos seu limite junto ao Banco." },
   { n: "02", titulo: "Escolha do terreno", desc: "Visitamos lotes validados na região que você deseja morar." },
   { n: "03", titulo: "Projeto arquitetônico", desc: "Nossos arquitetos desenham a planta ideal para sua família." },
-  { n: "04", titulo: "Aprovação na Caixa", desc: "Cuidamos da papelada para garantir a assinatura do contrato." },
+  { n: "04", titulo: "Aprovação no Banco", desc: "Cuidamos da papelada para garantir a assinatura do contrato." },
   { n: "05", titulo: "Obra garantida", desc: "Cronograma rigoroso, relatórios mensais e gestão total da obra." },
   { n: "06", titulo: "Entrega das chaves", desc: "Casa pronta, vistoriada e com documentação em dia." },
 ];

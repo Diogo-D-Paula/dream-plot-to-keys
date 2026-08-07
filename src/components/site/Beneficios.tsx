@@ -20,7 +20,7 @@ const beneficios = [
     desc: "Carência no financiamento. As parcelas começam quando você recebe as chaves.",
   },
   {
-    titulo: "Financiamento Caixa",
+    titulo: "Financiamento Bancário",
     desc: "Menores taxas do mercado, uso do FGTS como entrada e subsídios do Minha Casa Minha Vida.",
   },
 ];

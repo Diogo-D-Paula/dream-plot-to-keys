@@ -23,8 +23,7 @@ export function Diferenciais() {
               Você não está sozinho nessa jornada.
             </h2>
             <p className="mt-6 max-w-md text-muted-foreground">
-              Mais de uma década realizando o sonho da casa própria de centenas de famílias
-              brasileiras com segurança e previsibilidade.
+              Realizamos seu sonho da casa própria com segurança e transparência.
             </p>
           </div>
           <ul className="space-y-4">

@@ -1,7 +1,7 @@
 import { Check } from "lucide-react";
 
 const itens = [
-  "Especialistas em financiamento habitacional Caixa",
+  "Especialistas em financiamento habitacional bancário",
   "Acompanhamento completo da obra com relatórios mensais",
   "Gestão documental e burocrática do início ao fim",
   "Transparência total em todas as etapas do contrato",

@@ -14,16 +14,16 @@ export const Route = createFileRoute("/")({
     meta: [
       {
         title:
-          "Sua Construtora — Casa própria com terreno e construção financiados pela Caixa",
+          "Sua Construtora — Casa própria com terreno e construção financiados pelo Banco",
       },
       {
         name: "description",
         content:
-          "Financie a aquisição do terreno e a construção da sua casa em um único contrato pela Caixa Econômica Federal. Simule grátis em 2 minutos.",
+          "Financie a aquisição do terreno e a construção da sua casa em um único contrato pelo Banco. Simule grátis em 2 minutos.",
       },
       {
         property: "og:title",
-        content: "Sua Construtora — Casa própria financiada pela Caixa",
+        content: "Sua Construtora — Casa própria financiada pelo Banco",
       },
       {
         property: "og:description",

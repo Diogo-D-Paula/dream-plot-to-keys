@@ -49,8 +49,8 @@
   --card-foreground: hsl(200 20% 12%);
   --popover: hsl(0 0% 100%);
   --popover-foreground: hsl(200 20% 12%);
-  --primary: hsl(15 65% 45%);
-  --primary-foreground: hsl(40 20% 97%);
+  --primary: hsl(33 58% 71%);
+  --primary-foreground: hsl(200 20% 12%);
   --secondary: hsl(40 15% 92%);
   --secondary-foreground: hsl(200 20% 12%);
   --muted: hsl(200 10% 40%);
@@ -61,7 +61,7 @@
   --destructive-foreground: hsl(40 20% 97%);
   --border: hsl(200 20% 12% / 0.1);
   --input: hsl(200 20% 12% / 0.15);
-  --ring: hsl(15 65% 45%);
+  --ring: hsl(33 58% 71%);
 }
 
 .dark {
@@ -71,8 +71,8 @@
   --card-foreground: hsl(40 20% 97%);
   --popover: hsl(200 20% 12%);
   --popover-foreground: hsl(40 20% 97%);
-  --primary: hsl(15 65% 55%);
-  --primary-foreground: hsl(200 20% 8%);
+  --primary: hsl(33 58% 71%);
+  --primary-foreground: hsl(200 20% 12%);
   --secondary: hsl(200 15% 18%);
   --secondary-foreground: hsl(40 20% 97%);
   --muted: hsl(200 10% 60%);
@@ -83,7 +83,7 @@
   --destructive-foreground: hsl(40 20% 97%);
   --border: hsl(40 20% 97% / 0.1);
   --input: hsl(40 20% 97% / 0.15);
-  --ring: hsl(15 65% 55%);
+  --ring: hsl(33 58% 71%);
 }
 
 @layer base {

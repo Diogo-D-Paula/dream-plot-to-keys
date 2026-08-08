@@ -7,7 +7,7 @@ export function Hero() {
         <div className="grid items-end gap-16 lg:grid-cols-2">
           <div className="animate-fade-up">
             <h1 className="mb-8 text-balance text-6xl font-extrabold leading-[0.9] tracking-tighter md:text-8xl">
-              Conquiste sua casa própria financiando a compra do terreno + construção em um único
+              Conquiste sua casa própria financiando a compra do terreno e a construção em um único
               processo.
             </h1>
             <p className="mb-10 max-w-lg text-lg text-muted-foreground">

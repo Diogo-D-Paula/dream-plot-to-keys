@@ -6,7 +6,7 @@ export const Route = createFileRoute("/contato")({
   head: () => ({
     meta: [
       { title: "Contato — Sua Construtora" },
-      { name: "description", content: "Fale com um consultor especialista em financiamento Caixa." },
+      { name: "description", content: "Fale com um consultor especialista em financiamento bancário." },
     ],
   }),
   component: Contato,

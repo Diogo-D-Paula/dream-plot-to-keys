@@ -12,7 +12,7 @@ const perguntas = [
   },
   {
     q: "Posso utilizar meu FGTS?",
-    a: "Sim. O saldo do FGTS pode ser usado como parte da entrada ou para amortizar parcelas, respeitando as regras da Caixa.",
+    a: "Sim. O saldo do FGTS pode ser usado como parte da entrada ou para amortizar parcelas, respeitando as regras do Banco.",
   },
   {
     q: "Quanto preciso dar de entrada?",
@@ -32,7 +32,7 @@ const perguntas = [
   },
   {
     q: "Qual banco realiza esse tipo de financiamento?",
-    a: "Trabalhamos com a Caixa Econômica Federal, que oferece as melhores taxas e prazos para financiamento de terreno + construção.",
+    a: "Trabalhamos com o Banco, que oferece as melhores taxas e prazos para financiamento de terreno + construção.",
   },
   {
     q: "O financiamento cobre terreno e construção?",

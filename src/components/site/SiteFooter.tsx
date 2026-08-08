@@ -13,8 +13,7 @@ export function SiteFooter() {
               Sua<span className="text-primary">Construtora</span>
             </Link>
             <p className="mt-4 max-w-sm text-sm text-muted-foreground">
-              Especialistas em financiamento de terreno + construção pela Caixa Econômica
-              Federal. Sua casa nova, do zero, em um só contrato.
+              Especialistas em financiamento de terreno + construção pelo Banco. Sua casa nova, do zero, em um só contrato.
             </p>
           </div>
           <div>

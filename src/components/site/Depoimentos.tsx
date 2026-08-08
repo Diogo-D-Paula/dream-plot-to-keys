@@ -15,7 +15,7 @@ const depoimentos = [
     nome: "Juliana Rocha",
     cidade: "Anápolis, GO",
     texto:
-      "Sozinha, achei que nunca conseguiria. Eles me ajudaram com o FGTS, a Caixa aprovou e em 11 meses eu estava com a chave na mão.",
+      "Sozinha, achei que nunca conseguiria. Eles me ajudaram com o FGTS, o Banco aprovou e em 11 meses eu estava com a chave na mão.",
   },
 ];
 

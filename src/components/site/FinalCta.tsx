@@ -2,7 +2,7 @@ export function FinalCta() {
   return (
     <section className="px-6 py-24">
       <div className="mx-auto max-w-7xl">
-        <div className="rounded-3xl bg-foreground p-12 text-center text-background md:p-20">
+        <div className="rounded-3xl bg-[#2a2a2c] p-12 text-center text-white md:p-20">
           <h2 className="mx-auto mb-8 max-w-3xl text-balance text-4xl font-extrabold tracking-tighter md:text-6xl">
             Sua casa própria pode estar mais perto do que você imagina.
           </h2>

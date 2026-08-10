@@ -9,8 +9,13 @@ export function SiteNav() {
   return (
     <nav className="fixed top-0 z-50 w-full border-b border-border bg-background/80 backdrop-blur-md">
       <div className="mx-auto flex h-20 max-w-7xl items-center justify-between px-6">
-        <Link to="/" className="font-display text-xl font-extrabold uppercase tracking-tighter">
-          Sua<span className="text-primary">Construtora</span>
+        <Link to="/" className="font-display font-extrabold uppercase tracking-tighter">
+          <span className="hidden text-sm md:inline">
+            SEI <span className="text-primary">— Salles Empreendimentos Imobiliários</span>
+          </span>
+          <span className="text-xl md:hidden">
+            SEI
+          </span>
         </Link>
         <div className="hidden gap-8 text-sm font-medium uppercase tracking-wider md:flex">
           {links.map((l) => (

@@ -8,9 +8,9 @@ export function SiteFooter() {
           <div className="md:col-span-2">
             <Link
               to="/"
-              className="font-display text-xl font-extrabold uppercase tracking-tighter"
+              className="font-display text-sm font-extrabold uppercase tracking-tighter"
             >
-              Sua<span className="text-primary">Construtora</span>
+              SEI <span className="text-primary">— Salles Empreendimentos Imobiliários</span>
             </Link>
             <p className="mt-4 max-w-sm text-sm text-muted-foreground">
               Especialistas em financiamento de terreno + construção pelo Banco. Sua casa nova, do zero, em um só contrato.
@@ -41,7 +41,7 @@ export function SiteFooter() {
                   WhatsApp (62) 99999-9999
                 </a>
               </li>
-              <li>atendimento@suaconstrutora.com.br</li>
+              <li>atendimento@seisalles.com.br</li>
               <li>Goiânia • Anápolis • Aparecida</li>
             </ul>
           </div>
@@ -51,7 +51,7 @@ export function SiteFooter() {
             CNPJ 00.000.000/0000-00 • CRECI 0000-J
           </p>
           <p className="mt-2 font-mono text-[10px] uppercase tracking-[0.2em] text-muted-foreground">
-            © {new Date().getFullYear()} Sua Construtora • Todos os direitos reservados
+            © {new Date().getFullYear()} SEI — Salles Empreendimentos Imobiliários • Todos os direitos reservados
           </p>
         </div>
       </div>

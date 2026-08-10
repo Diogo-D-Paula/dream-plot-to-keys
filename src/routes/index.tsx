@@ -14,7 +14,7 @@ export const Route = createFileRoute("/")({
     meta: [
       {
         title:
-          "Sua Construtora — Casa própria com terreno e construção financiados pelo Banco",
+          "SEI — Salles Empreendimentos Imobiliários — Casa própria com terreno e construção financiados pelo Banco",
       },
       {
         name: "description",
@@ -23,7 +23,7 @@ export const Route = createFileRoute("/")({
       },
       {
         property: "og:title",
-        content: "Sua Construtora — Casa própria financiada pelo Banco",
+        content: "SEI — Salles Empreendimentos Imobiliários — Casa própria financiada pelo Banco",
       },
       {
         property: "og:description",

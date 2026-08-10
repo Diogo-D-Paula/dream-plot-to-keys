@@ -27,7 +27,7 @@ const beneficios = [
 
 export function Beneficios() {
   return (
-    <section className="bg-foreground py-24 text-background">
+    <section style={{ backgroundColor: "#2a2a2c" }} className="py-24 text-background">
       <div className="mx-auto max-w-7xl px-6">
         <div className="mb-16 max-w-2xl">
           <span className="mb-4 block font-mono text-xs uppercase tracking-[0.3em] text-primary">
@@ -39,7 +39,7 @@ export function Beneficios() {
         </div>
         <div className="grid gap-px border border-white/10 bg-white/10 md:grid-cols-3">
           {beneficios.map((b, i) => (
-            <div key={b.titulo} className="bg-foreground p-10">
+            <div key={b.titulo} style={{ backgroundColor: "#2a2a2c" }} className="p-10">
               <span className="mb-4 block font-mono text-sm text-primary">
                 0{i + 1}
               </span>

@@ -39,7 +39,7 @@ function Placeholder({ title, desc }: { title: string; desc: string }) {
 export const Route = createFileRoute("/como-funciona")({
   head: () => ({
     meta: [
-      { title: "Como funciona — Sua Construtora" },
+      { title: "Como funciona — SEI — Salles Empreendimentos Imobiliários" },
       {
         name: "description",
         content: "Entenda passo a passo como funciona o financiamento de terreno + construção.",

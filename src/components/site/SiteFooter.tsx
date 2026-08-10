@@ -41,7 +41,7 @@ export function SiteFooter() {
                   WhatsApp (62) 99999-9999
                 </a>
               </li>
-              <li>atendimento@suaconstrutora.com.br</li>
+              <li>atendimento@seisalles.com.br</li>
               <li>Goiânia • Anápolis • Aparecida</li>
             </ul>
           </div>

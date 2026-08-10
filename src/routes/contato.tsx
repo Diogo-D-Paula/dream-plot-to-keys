@@ -5,7 +5,7 @@ import { SiteFooter } from "@/components/site/SiteFooter";
 export const Route = createFileRoute("/contato")({
   head: () => ({
     meta: [
-      { title: "Contato — Sua Construtora" },
+      { title: "Contato — SEI — Salles Empreendimentos Imobiliários" },
       { name: "description", content: "Fale com um consultor especialista em financiamento bancário." },
     ],
   }),
@@ -33,10 +33,10 @@ function Contato() {
             WhatsApp (66) 99999-90322
           </a>
           <a
-            href="mailto:atendimento@suaconstrutora.com.br"
+            href="mailto:atendimento@seisalles.com.br"
             className="rounded-xl border border-border px-6 py-5 text-center font-bold"
           >
-            atendimento@suaconstrutora.com.br
+            atendimento@seisalles.com.br
           </a>
         </div>
       </main>

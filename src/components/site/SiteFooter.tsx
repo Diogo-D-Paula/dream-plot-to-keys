@@ -9,9 +9,18 @@ export function SiteFooter() {
           <div className="md:col-span-2">
             <Link
               to="/"
-              className="font-display text-sm font-extrabold uppercase tracking-tighter"
+              className="flex items-center gap-3"
             >
-              SEI <span className="text-primary">— Salles Empreendimentos Imobiliários</span>
+              <img
+                src={logoSei}
+                alt="SEI"
+                className="h-8 w-auto"
+                width={32}
+                height={32}
+              />
+              <span className="font-display text-sm font-extrabold uppercase tracking-tighter">
+                SEI <span className="text-primary">— Salles Empreendimentos Imobiliários</span>
+              </span>
             </Link>
             <p className="mt-4 max-w-sm text-sm text-muted-foreground">
               Especialistas em financiamento de terreno + construção pelo Banco. Sua casa nova, do zero, em um só contrato.

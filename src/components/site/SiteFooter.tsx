@@ -1,4 +1,5 @@
 import { Link } from "@tanstack/react-router";
+import logoSei from "@/assets/logo-sei.jpeg";
 
 export function SiteFooter() {
   return (

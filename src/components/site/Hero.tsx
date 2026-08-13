@@ -6,12 +6,9 @@ export function Hero() {
       <div className="mx-auto max-w-7xl">
         <div className="grid items-end gap-16 lg:grid-cols-2">
           <div className="animate-fade-up">
-            <span className="mb-4 block font-mono text-xs uppercase tracking-[0.3em] text-primary">
-              Crédito Imobiliário Banco
-            </span>
             <h1 className="mb-8 text-balance text-6xl font-extrabold leading-[0.9] tracking-tighter md:text-8xl">
-              Conquiste sua casa própria no{" "}
-              <span className="gold-text">terreno ideal.</span>
+              Conquiste sua{" "}
+              <span className="gold-text">casa própria</span>
             </h1>
             <p className="mb-10 max-w-lg text-lg text-muted-foreground">
               Financie a compra do terreno e a construção da casa em um único contrato. Comece a

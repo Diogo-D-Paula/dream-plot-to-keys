@@ -33,8 +33,13 @@ export function Hero() {
             <img
               src={heroImg}
               alt="Casa moderna brasileira com grandes janelas durante o pôr do sol"
+              width={1024}
+              height={1280}
               className="aspect-[4/5] w-full rounded-sm object-cover outline-1 -outline-offset-1 outline-black/5"
+              style={{ aspectRatio: "4 / 5" }}
               loading="eager"
+              decoding="sync"
+              fetchPriority="high"
             />
           </div>
         </div>

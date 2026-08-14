@@ -52,18 +52,17 @@ export function SiteFooter() {
                 </a>
               </li>
               <li>atendimento@seisalles.com.br</li>
-              <li>Goiânia • Anápolis • Aparecida</li>
+              <li>Carlópolis/PR • Curitiba e região metropolitana/PR</li>
+
             </ul>
           </div>
         </div>
         <div className="mt-16 border-t border-border pt-8 text-center">
           <p className="font-mono text-[10px] uppercase tracking-[0.2em] text-muted-foreground">
-            CNPJ 00.000.000/0000-00 • CRECI 0000-J
-          </p>
-          <p className="mt-2 font-mono text-[10px] uppercase tracking-[0.2em] text-muted-foreground">
             © {new Date().getFullYear()} SEI — Salles Empreendimentos Imobiliários • Todos os direitos reservados
           </p>
         </div>
+
       </div>
     </footer>
   );

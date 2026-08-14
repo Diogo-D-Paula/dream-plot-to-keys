@@ -3,6 +3,7 @@ import logoSei from "@/assets/logo-sei.png";
 
 const links = [
   { label: "Processo", href: "/#processo" },
+  { label: "Serviços", href: "/#servicos" },
   { label: "FAQ", href: "/#faq" },
 ];
 

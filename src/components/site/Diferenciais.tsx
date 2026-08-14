@@ -1,18 +1,17 @@
 import { Check } from "lucide-react";
 
 const itens = [
-  "Especialistas em financiamento habitacional bancário",
-  "Acompanhamento completo da obra com relatórios mensais",
+  "Simulação e gestão de financiamento habitacional bancário",
   "Gestão documental e burocrática do início ao fim",
-  "Transparência total em todas as etapas do contrato",
+  "Projetos completos e aprovações - transparência total em todas as etapas do contrato",
+  "Acompanhamento completo da obra com relatórios mensais",
   "Cronograma e prazos garantidos em contrato",
-  "Atendimento personalizado por consultor dedicado",
   "Comunicação contínua via WhatsApp e e-mail",
 ];
 
 export function Diferenciais() {
   return (
-    <section className="border-t border-border bg-secondary/30 py-28">
+    <section id="servicos" className="border-t border-border bg-secondary/30 py-28">
       <div className="mx-auto max-w-7xl px-6">
         <div className="grid gap-12 lg:grid-cols-[1fr_1.2fr]">
           <div>

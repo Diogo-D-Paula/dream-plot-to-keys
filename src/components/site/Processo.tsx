@@ -9,7 +9,7 @@ const passos = [
 
 export function Processo() {
   return (
-    <section id="processo" className="scroll-mt-24 border-t border-border py-24">
+    <section id="processo" className="scroll-mt-20 border-t border-border py-24">
       <div className="mx-auto max-w-7xl px-6">
         <div className="mb-16 flex flex-col items-end justify-between gap-6 md:flex-row">
           <h2 className="text-balance text-4xl font-extrabold uppercase tracking-tighter md:text-5xl">

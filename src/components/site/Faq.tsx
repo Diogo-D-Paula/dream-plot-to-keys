@@ -42,7 +42,7 @@ const perguntas = [
 
 export function Faq() {
   return (
-    <section id="faq" className="scroll-mt-4 border-t border-border bg-card pt-12 pb-24">
+    <section id="faq" className="scroll-mt-4 border-t border-border bg-card pt-16 pb-24">
       <div className="mx-auto max-w-3xl px-6">
         <div className="mb-12 text-center">
           <span className="mb-4 block font-mono text-xs uppercase tracking-[0.3em] text-primary">

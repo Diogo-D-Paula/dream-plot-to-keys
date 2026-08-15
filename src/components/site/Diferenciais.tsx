@@ -11,7 +11,7 @@ const itens = [
 
 export function Diferenciais() {
   return (
-    <section id="servicos" className="scroll-mt-20 border-t border-border bg-secondary/30 py-28">
+    <section id="servicos" className="scroll-mt-4 border-t border-border bg-secondary/30 py-28">
       <div className="mx-auto max-w-7xl px-6">
         <div className="grid gap-12 lg:grid-cols-[1fr_1.2fr]">
           <div>

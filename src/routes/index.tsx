@@ -19,7 +19,7 @@ export const Route = createFileRoute("/")({
       {
         name: "description",
         content:
-          "Financie a aquisição do terreno e a construção da sua casa em um único contrato pelo Banco. Simule grátis em 2 minutos.",
+          "Financie a aquisição do terreno e a construção da sua casa em um único contrato pelo Banco. Fale com a gente pelo WhatsApp.",
       },
       {
         property: "og:title",
@@ -28,7 +28,7 @@ export const Route = createFileRoute("/")({
       {
         property: "og:description",
         content:
-          "Terreno + construção em um único financiamento. Simule grátis em 2 minutos.",
+          "Terreno + construção em um único financiamento. Fale com a gente pelo WhatsApp.",
       },
       { property: "og:type", content: "website" },
       { property: "og:url", content: "/" },

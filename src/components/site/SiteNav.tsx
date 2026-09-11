@@ -2,6 +2,7 @@ import { Link } from "@tanstack/react-router";
 import logoSei from "@/assets/logo-sei.png";
 
 const links = [
+  { label: "Diferenciais", href: "/#diferenciais" },
   { label: "Processo", href: "/#processo" },
   { label: "Serviços", href: "/#servicos" },
   { label: "FAQ", href: "/#faq" },

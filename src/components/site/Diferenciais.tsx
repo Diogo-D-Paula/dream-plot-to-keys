@@ -16,7 +16,7 @@ export function Diferenciais() {
         <div className="grid gap-12 lg:grid-cols-[1fr_1.2fr]">
           <div>
             <span className="mb-4 block font-mono text-xs uppercase tracking-[0.3em] text-primary">
-              Diferenciais
+              Serviços
             </span>
             <h2 className="text-balance text-4xl font-extrabold tracking-tighter md:text-5xl">
               Você não está sozinho nessa jornada.

@@ -12,9 +12,14 @@ export function Processo() {
     <section id="processo" className="scroll-mt-4 border-t border-border py-24 flex flex-col justify-center min-h-[calc(100vh-80px)]">
       <div className="mx-auto max-w-7xl px-6">
         <div className="mb-16 flex flex-col items-end justify-between gap-6 md:flex-row">
-          <h2 className="text-balance text-4xl font-extrabold uppercase tracking-tighter md:text-5xl">
-            O caminho para as chaves
-          </h2>
+          <div className="flex flex-col gap-4">
+            <span className="block font-mono text-xs uppercase tracking-[0.3em] text-primary">
+              Processo
+            </span>
+            <h2 className="text-balance text-4xl font-extrabold uppercase tracking-tighter md:text-5xl">
+              O caminho para as chaves
+            </h2>
+          </div>
           <p className="max-w-sm text-sm text-muted-foreground">
             Seis etapas simples e acompanhadas por um especialista, do primeiro contato à mudança.
           </p>

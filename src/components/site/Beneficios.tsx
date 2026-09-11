@@ -27,11 +27,15 @@ const beneficios = [
 
 export function Beneficios() {
   return (
-    <section style={{ backgroundColor: "#2a2a2c" }} className="py-24 text-background">
+    <section
+      id="diferenciais"
+      style={{ backgroundColor: "#2a2a2c" }}
+      className="flex scroll-mt-4 flex-col justify-center py-24 min-h-[calc(100vh-80px)] text-background"
+    >
       <div className="mx-auto max-w-7xl px-6">
         <div className="mb-16 max-w-2xl">
           <span className="mb-4 block font-mono text-xs uppercase tracking-[0.3em] text-primary">
-            Por que terreno + construção
+            Diferenciais
           </span>
           <h2 className="text-balance text-4xl font-extrabold tracking-tighter md:text-5xl">
             A forma mais inteligente de ter a sua casa própria hoje.

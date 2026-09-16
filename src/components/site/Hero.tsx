@@ -42,18 +42,64 @@ export function Hero() {
           </div>
 
           <div className="animate-fade-up [animation-delay:200ms]">
-            <img
-              src={heroImg}
-              alt="Casa moderna brasileira com grandes janelas durante o pôr do sol"
-              width={1024}
-              height={1280}
-              className="aspect-[4/5] w-full rounded-sm object-cover object-[center_35%] outline-1 -outline-offset-1 outline-black/5"
+            <div
+              className="relative w-full overflow-hidden rounded-sm outline-1 -outline-offset-1 outline-black/5"
               style={{ aspectRatio: "4 / 5" }}
-              loading="eager"
-              decoding="sync"
-              fetchPriority="high"
-            />
+              role="region"
+              aria-roledescription="carrossel"
+              aria-label="Projetos realizados"
+            >
+              {slides.map((s, i) => (
+                <img
+                  key={s.src}
+                  src={s.src}
+                  alt={s.alt}
+                  width={1024}
+                  height={1280}
+                  aria-hidden={i !== index}
+                  className={`absolute inset-0 h-full w-full object-cover object-center transition-opacity duration-500 ${
+                    i === index ? "opacity-100" : "opacity-0"
+                  }`}
+                  loading={i === 0 ? "eager" : "lazy"}
+                  decoding={i === 0 ? "sync" : "async"}
+                  fetchPriority={i === 0 ? "high" : "low"}
+                />
+              ))}
+
+              <button
+                type="button"
+                onClick={() => go(index - 1)}
+                aria-label="Imagem anterior"
+                className="absolute left-3 top-1/2 -translate-y-1/2 rounded-full bg-background/80 p-2 text-foreground shadow-sm transition hover:bg-background focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary"
+              >
+                <ChevronLeft className="h-5 w-5" />
+              </button>
+              <button
+                type="button"
+                onClick={() => go(index + 1)}
+                aria-label="Próxima imagem"
+                className="absolute right-3 top-1/2 -translate-y-1/2 rounded-full bg-background/80 p-2 text-foreground shadow-sm transition hover:bg-background focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary"
+              >
+                <ChevronRight className="h-5 w-5" />
+              </button>
+            </div>
+
+            <div className="mt-4 flex justify-center gap-3">
+              {slides.map((s, i) => (
+                <button
+                  key={s.src}
+                  type="button"
+                  onClick={() => go(i)}
+                  aria-label={`Ir para a imagem ${i + 1}`}
+                  aria-current={i === index}
+                  className={`h-2.5 w-2.5 rounded-full transition focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary ${
+                    i === index ? "bg-primary" : "bg-border"
+                  }`}
+                />
+              ))}
+            </div>
           </div>
+
         </div>
       </div>
     </section>

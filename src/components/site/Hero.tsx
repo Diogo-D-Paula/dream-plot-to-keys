@@ -44,7 +44,7 @@ export function Hero() {
           <div className="animate-fade-up [animation-delay:200ms]">
             <div
               className="relative w-full overflow-hidden rounded-sm outline-1 -outline-offset-1 outline-black/5"
-              style={{ aspectRatio: "4 / 5" }}
+              style={{ aspectRatio: "16 / 10" }}
               role="region"
               aria-roledescription="carrossel"
               aria-label="Projetos realizados"
@@ -54,8 +54,8 @@ export function Hero() {
                   key={s.src}
                   src={s.src}
                   alt={s.alt}
-                  width={1024}
-                  height={1280}
+                  width={1280}
+                  height={800}
                   aria-hidden={i !== index}
                   className={`absolute inset-0 h-full w-full object-cover object-center transition-opacity duration-500 ${
                     i === index ? "opacity-100" : "opacity-0"

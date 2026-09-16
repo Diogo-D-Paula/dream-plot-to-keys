@@ -1,6 +1,19 @@
-import heroImg from "@/assets/hero-house.jpg";
+import { useState } from "react";
+import { ChevronLeft, ChevronRight } from "lucide-react";
+import casa1 from "@/assets/casa-1.jpg";
+import casa2 from "@/assets/casa-2.jpg";
+import casa3 from "@/assets/casa-3.jpg";
+
+const slides = [
+  { src: casa1, alt: "Fachada de casa branca com muro de pedra natural" },
+  { src: casa2, alt: "Área gourmet com pergolado de madeira e piscina" },
+  { src: casa3, alt: "Duas casas geminadas com fachada em concreto aparente" },
+];
 
 export function Hero() {
+  const [index, setIndex] = useState(0);
+  const go = (n: number) => setIndex((n + slides.length) % slides.length);
+
   return (
     <section className="px-6 pt-40 pb-20">
       <div className="mx-auto max-w-7xl">

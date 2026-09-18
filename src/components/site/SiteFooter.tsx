@@ -1,4 +1,5 @@
 import { Link } from "@tanstack/react-router";
+import { Instagram } from "lucide-react";
 import logoSei from "@/assets/logo-sei.png";
 
 export function SiteFooter() {
@@ -53,7 +54,17 @@ export function SiteFooter() {
               </li>
               <li>seisallesempreendimentos@gmail.com</li>
               <li>Carlópolis/PR • Curitiba e região metropolitana/PR</li>
-
+              <li>
+                <a
+                  href="https://www.instagram.com/sei_sallesempreendimentosimob/?hl=pt-br"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-2 hover:text-primary"
+                >
+                  <Instagram className="h-4 w-4" />
+                  <span>Mais informações sobre MCMV</span>
+                </a>
+              </li>
             </ul>
           </div>
         </div>

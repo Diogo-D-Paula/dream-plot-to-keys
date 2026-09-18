@@ -43,15 +43,15 @@ export function SiteFooter() {
             <ul className="space-y-2 text-sm">
               <li>
                 <a
-                  href="https://wa.me/5562999999999"
+                  href="https://wa.me/5543991750788"
                   target="_blank"
                   rel="noreferrer"
                   className="hover:text-primary"
                 >
-                  WhatsApp (62) 99999-9999
+                  WhatsApp (43) 99175-0788
                 </a>
               </li>
-              <li>atendimento@seisalles.com.br</li>
+              <li>seisallesempreendimentos@gmail.com</li>
               <li>Carlópolis/PR • Curitiba e região metropolitana/PR</li>
 
             </ul>

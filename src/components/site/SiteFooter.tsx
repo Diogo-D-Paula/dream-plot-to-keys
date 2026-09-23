@@ -44,7 +44,7 @@ export function SiteFooter() {
             <ul className="space-y-2 text-sm">
               <li>
                 <a
-                  href="https://wa.me/5543991750788"
+                  href="https://wa.me/5543991750788?text=Ol%C3%A1%21%20Vim%20do%20site%20e%20quero%20fazer%20uma%20simula%C3%A7%C3%A3o%20de%20financiamento%20para%20terreno%20%2B%20constru%C3%A7%C3%A3o."
                   target="_blank"
                   rel="noreferrer"
                   className="hover:text-primary"
